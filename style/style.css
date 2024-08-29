@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .container {
@@ -49,7 +49,7 @@ body {
 }
 
 .two {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   font-weight: lighter;
 }
 
@@ -120,6 +120,11 @@ body {
   display: inline-block;
   max-width: 100%;
   height: auto;
+}
+
+.footer {
+  margin-top: 43em;
+  position: relative;
 }
 
 .six .hat {
@@ -258,6 +263,10 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+  .footer {
+    margin-top: 38em;
+  }
+
   .container {
     width: 90%;
   }
