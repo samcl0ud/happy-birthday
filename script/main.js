@@ -124,9 +124,9 @@ const animationTimeline = () => {
       "+=0.7"
     )
     .from(".idea-1", 0.7, ideaTextTrans)
-    .to(".idea-1", 0.7, ideaTextTransLeave, )
+    .to(".idea-1", 0.7, ideaTextTransLeave)
     .from(".idea-2", 0.7, ideaTextTrans)
-    .to(".idea-2", 0.7, ideaTextTransLeave,)
+    .to(".idea-2", 0.7, ideaTextTransLeave)
     .from(".idea-3", 0.7, ideaTextTrans)
     .to(".idea-3 strong", 0.5, {
       scale: 1.2,
@@ -134,9 +134,9 @@ const animationTimeline = () => {
       backgroundColor: "rgb(21, 161, 237)",
       color: "#fff"
     })
-    .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-3", 0.7, ideaTextTransLeave)
     .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-4", 0.7, ideaTextTransLeave)
     .from(
       ".idea-5",
       0.7,
@@ -157,7 +157,6 @@ const animationTimeline = () => {
         rotation: 90,
         x: 8
       },
-      "+=0.4"
     )
     .to(
       ".idea-5",
@@ -166,7 +165,6 @@ const animationTimeline = () => {
         scale: 0.2,
         opacity: 0
       },
-      "+=2"
     )
     .staggerFrom(
       ".idea-6 span",
