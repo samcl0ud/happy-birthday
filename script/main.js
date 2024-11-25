@@ -42,14 +42,12 @@ const animationTimeline = () => {
     opacity: 0,
     y: -20,
     rotationX: 5,
-    skewX: "15deg"
   };
 
   const ideaTextTransLeave = {
     opacity: 0,
     y: 20,
     rotationY: 5,
-    skewX: "-15deg"
   };
 
   const tl = new TimelineMax();
